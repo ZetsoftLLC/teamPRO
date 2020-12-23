@@ -792,7 +792,7 @@ th {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
-  color: #fff;
+  color: #222222;
   padding: 20px; }
 .navbar-nav .dropdown .dropdown-item {
   color: #222222;
@@ -806,7 +806,7 @@ th {
   border: 0;
   cursor: pointer;
   padding: 3px 5px;
-  color: #fff; }
+  color: #222222; }
   .navbar-nav .search:focus {
     outline: none; }
   @media (max-width: 991px) {
@@ -817,7 +817,13 @@ th {
   position: fixed;
   left: 0;
   width: 100%;
-  background: #222222; }
+  background: #b8afaf;
+  color: #fff;
+ }
+
+ .header-scrolled li a {
+   color: white;
+ }
 
 #search-input-box {
   position: fixed;
@@ -886,7 +892,7 @@ th {
   .home-banner-left {
     text-align: center; } }
 .home-banner-left h1 {
-  color: #222;
+  color: #222 !important;
   font-size: 48px;
   line-height: 1em;
   margin-bottom: 20px; }
@@ -906,6 +912,7 @@ th {
       font-size: 40px; } }
 @media (max-width: 800px) {
   .home-banner-left {
+    
     margin-top: 30px; } }
 
 .home-banner-right img {
